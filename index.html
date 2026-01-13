@@ -1,23 +1,39 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>Bienvenid@ a mi página web</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-  <h1>¡Bienvenid@ a mi página web!</h1>
-  <p id="respuesta"></p>
+  <h1 class="titulo" id="tituloPrincipal">
+    ¡Bienvenid@ a mi página web!
+  </h1>
 
-  <form id="formulario">
-  <img src="img/foto.png" alt="Imagen decorativa" class="decorativa">
 
-  <input type="text" id="campoTexto" placeholder="Escribe tu nombre">
-  <button type="submit">Enviar</button>
+  <div class="card">
 
-  <p id="respuesta"></p>
-</form>
-  <p>Creado por: Andrea Celeste</p>
+          <p id="nombreReves" class="saludo"></p><br>
+          
+
+    <img src="img/foto.png" alt="Dinosaurio" class="dino" />
+
+    <form id="nombreForm">
+      <input
+        type="text"
+        id="nombre"
+        placeholder="Escribe tu nombre"
+        autocomplete="off"
+      />
+      <button type="submit">Enviar</button>
+
+      <p id="error" class="error"></p>
+      <p id="saludo" class="saludo"></p>
+      <p id="nombreReves" class="saludo"></p>
+    </form>
+  </div>
+
+  <p class="autor">Creado por: Andrea Celeste</p>
 
   <script src="js/script.js"></script>
 </body>
