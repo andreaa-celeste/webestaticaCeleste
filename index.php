@@ -7,11 +7,11 @@
 </head>
 <body>
     <h1 class="titulo" id="tituloPrincipal">
-        <?php echo $saludoTitulo; ?>
+        ¡Bienvenid@ a mi página web!
     </h1>
     <div class="card">
         <img src="img/foto.png" alt="Dinosaurio" class="dino" />
-        <form method="POST" action="index.php">
+        <form method="POST" action="saludo.php">
             <input
                 type="text"
                 name="nombre"
@@ -21,19 +21,8 @@
             />
             <button type="submit">Enviar</button>
         </form>
-        <?php if ($nombreReves): ?>
-            <p id="nombreReves" class="saludo"><?php echo $nombreReves; ?></p>
-        <?php endif; ?>
-        <?php if ($error): ?>
-            <p id="error" class="error"><?php echo $error; ?></p>
-        <?php endif; ?>
-
-        
-
     </div>
 
-  <p class="autor">Creado por: Andrea Celeste</p>
-
-  <script src="script.php"></script>
+    <p class="autor">Creado por: Andrea Celeste</p>
 </body>
 </html>
