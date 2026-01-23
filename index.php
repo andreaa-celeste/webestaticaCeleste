@@ -35,6 +35,6 @@
 
   <p class="autor">Creado por: Andrea Celeste</p>
 
-  <script src="js/script.js"></script>
+  <script src="script.php"></script>
 </body>
 </html>
