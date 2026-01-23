@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 // Arrays de saludos
 $saludosTitulo = [
@@ -85,5 +86,45 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     </div>
 
     <p class="autor">Creado por: Andrea Celeste</p>
+=======
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Bienvenid@ a mi página web</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <h1 class="titulo" id="tituloPrincipal">
+    ¡Bienvenid@ a mi página web!
+  </h1>
+
+
+  <div class="card">
+
+          <p id="nombreReves" class="saludo"></p><br>
+          
+
+    <img src="img/foto.png" alt="Dinosaurio" class="dino" />
+
+    <form id="nombreForm">
+      <input
+        type="text"
+        id="nombre"
+        placeholder="Escribe tu nombre"
+        autocomplete="off"
+      />
+      <button type="submit">Enviar</button>
+
+      <p id="error" class="error"></p>
+      <p id="saludo" class="saludo"></p>
+      <p id="nombreReves" class="saludo"></p>
+    </form>
+  </div>
+
+  <p class="autor">Creado por: Andrea Celeste</p>
+
+  <script src="script.php"></script>
+>>>>>>> b08ab61afb9ce93378233f53f7d0113ab99ffbf5
 </body>
 </html>
